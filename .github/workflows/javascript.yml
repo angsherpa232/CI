@@ -1,11 +1,8 @@
 name: JavaScript workflow
-
 on: [push]
-
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js 12.x
